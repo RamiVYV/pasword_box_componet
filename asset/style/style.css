@@ -1,0 +1,91 @@
+ /* ----------------------------fonts------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+/* -------
+border:1px solid red;------------------------Var-----------------------------------*/
+:root{
+    --mulish:'Mulish', sans-serif;
+    --blue__title:#04146c;
+    --border__input:#414166;
+    --botton__background:#0a2ff1;
+    --white:white;
+
+}
+/* ----------------------------------ALL--------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+body{
+    font-family: var(--mulish);
+    text-align: center;
+    background-image: url(../img/M4-desafio1-fondo.png);
+    background-repeat: no-repeat;
+
+}
+/* -------------------------------Pasword__BOX--------------------------*/
+
+.container{
+    height: 70vh;
+    width: 50vw;
+    margin: 15vh auto;
+    background-image: url(../img/M4-desafio1-fondo-form.png);
+    background-repeat: no-repeat;
+    object-fit:cover;
+    border: none;
+    padding: 10vh 0;
+}
+form{
+    background-color: var(--white);
+    width:  40vw;
+    height: 50vh;
+    margin: 0 auto ;
+
+}
+legend{
+    color:var(--blue__title) ;
+    font-size: 25px;
+    font-weight: 700;
+    margin:  0 auto;
+   
+}
+fieldset{
+    padding: 1rem;
+    border: none;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    font-size: 19px;
+    font-weight:400 ;
+    margin: 0.5em;
+    border: var(--border__input) 2px solid;
+    cursor: text;
+
+}
+
+hr{
+    width: 500px;
+    margin: 1rem auto;
+    border: var(--border__input) 1px solid;
+}
+button{
+    background-color: var(--botton__background);
+    color: var(--white);
+}
+.submit{
+    color: var(--white);
+    background-color: var(--botton__background);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin :1rem;
+    color: var(--botton__background);
+}
